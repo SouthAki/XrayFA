@@ -24,6 +24,8 @@ fun rememberHomeUiLabels(): HomeUiLabels =
         unknownProtocolLabel = stringResource(Res.string.unknown),
         emptyNodeMessage = stringResource(Res.string.select_configuration_notify),
         configNotReadyMessage = stringResource(Res.string.config_not_ready),
+        mapFromLabel = stringResource(Res.string.home_map_from),
+        mapToLabel = stringResource(Res.string.home_map_to),
     )
 
 @Composable
@@ -197,6 +199,8 @@ fun rememberSettingsUiLabels(): SettingsUiLabels =
         bootAutoStartDescription = stringResource(Res.string.boot_auto_start_desc),
         homeScreenWidgetsTitle = stringResource(Res.string.home_screen_widgets_title),
         homeScreenWidgetsDescription = stringResource(Res.string.home_screen_widgets_desc),
+        connectMapTitle = stringResource(Res.string.connect_map_title),
+        connectMapDescription = stringResource(Res.string.connect_map_desc),
         agentFunctionsTitle = stringResource(Res.string.agent_functions_title),
         inDevelopmentLabel = stringResource(Res.string.in_development_label),
         agentFunctionsDescription = stringResource(Res.string.agent_functions_desc),
